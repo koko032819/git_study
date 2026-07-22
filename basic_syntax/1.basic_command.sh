@@ -38,3 +38,9 @@ git status
 
  # 충돌 무시하고 강제 push
  git push origin main --force
+
+# 특정 commit ID로의 전환 (소스코드를 과거 특정 버전으로 되돌림)
+ git checkout 커밋ID
+
+# 다시 현재 브랜치의 commit으로 되돌아 올 때
+git checkout main(현재 브랜치명)
